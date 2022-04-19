@@ -4,10 +4,12 @@ import pandas as pd
 import numpy as np
 import os 
 import env
-import acquire 
+from acquire_stephen import get_superstore_data
+
+# import acquire_jesse
 
 def prepare_superstore_data():
     
-    df = acquire.get_superstore_data()
+    df = get_superstore_data()
     
     return df
