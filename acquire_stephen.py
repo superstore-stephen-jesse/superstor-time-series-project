@@ -2,7 +2,7 @@ import pandas as pd
 import env
 import os 
 
-def db_conn():
+def db_conn_url():
     '''
         SQL Database connection function (Calls the env.py file to acquire login info) 
     '''
@@ -22,7 +22,7 @@ def get_superstore_data(use_cache = True):
     
     if os.path.exists(superstore) and use_cache:
         
-        print('Getting csv file..')
+        print('Reading csv file..')
         
         return pd.read_csv(superstore)
     
@@ -42,9 +42,9 @@ def get_superstore_data(use_cache = True):
           '''
     print('Getting data from SQL database..')
     
-    df = pd.read_sql(qry, db_conn())
+    df = pd.read_sql(qry, db_conn_url())
     
-    print('Caching csv locally..')
+    print('Caching csv file locally..')
     
     df.to_csv(superstore, index = False)
     
