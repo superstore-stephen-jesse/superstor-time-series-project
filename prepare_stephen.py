@@ -12,4 +12,13 @@ def prepare_superstore_data():
     
     df = get_superstore_data()
     
+    # ========= NEED MORE CLEANING ===========
+   
+    # Index the datetime columns
+    
+    
+    # Reset datetime index
+    
+    # Fill nulls 
+    
     return df
