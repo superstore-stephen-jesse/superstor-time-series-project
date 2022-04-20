@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import os 
 import env
-from acquire_stephen import get_superstore_data
+from acquire import get_superstore_data
 import datetime 
 
 # import acquire_jesse
@@ -29,8 +29,6 @@ def prepare_superstore_data():
     df.order_date = pd.to_datetime(df.order_date)
     df.ship_date = pd.to_datetime(df.ship_date)
 
-    
-    
     # Reset datetime index
     
     # Fill nulls 
