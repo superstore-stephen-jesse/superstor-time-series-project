@@ -32,6 +32,7 @@ def prepare_superstore_data():
     
     
     # Reset datetime index
+    df.index = df.order_date.sort_values()
     
     # Fill nulls 
     
