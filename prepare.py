@@ -23,6 +23,7 @@ def prepare_superstore_data():
     df = df.drop(columns = ['region_id','product_id','customer_id','category_id','order_id'])
     
     # Engineer columns names 
+    df = df.rename(columns={'sub-category':'sub_category'})
     
     # Index the datetime columns
     df.order_date = pd.to_datetime(df.order_date)
