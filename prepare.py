@@ -21,16 +21,19 @@ def prepare_superstore_data():
         
     # Drop Unnecessessary columns 
     df = df.drop(columns = ['region_id','product_id','customer_id','category_id','order_id'])
-    
-    # Engineer columns names 
-    df = df.rename(columns={'sub-category':'sub_category'})
-    
+     
     # Index the datetime columns
     df.order_date = pd.to_datetime(df.order_date)
     df.ship_date = pd.to_datetime(df.ship_date)
 
     # Reset datetime index
     df.index = df.order_date.sort_values()
+    
+    # Engineer columns names 
+    df = df.rename(columns={'sub-category':'sub_category'})
+    df['day'] = df.index.day
+    df['weekly'] = df.index.week
+    df['monthly'] = df.index.month
     
     # Fill nulls 
     
