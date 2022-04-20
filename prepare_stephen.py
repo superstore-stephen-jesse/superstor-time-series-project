@@ -5,6 +5,7 @@ import numpy as np
 import os 
 import env
 from acquire_stephen import get_superstore_data
+import datetime 
 
 # import acquire_jesse
 
@@ -18,15 +19,19 @@ def prepare_superstore_data():
     # Strip spaces in columns names 
     df.columns = df.columns.str.replace(' ','_')
     
+    # ========= NEED MORE PREPARE/CLEANING ===========
+    
     # Drop Unnecessessary columns 
 #     df = df.drop(columns = ['','','','','']})
     
     # Engineer columns names 
     
     
-    # ========= NEED MORE PREPARE/CLEANING ===========
    
     # Index the datetime columns
+    df.order_date = pd.to_datetime(df.order_date)
+    df.ship_date = pd.to_datetime(df.ship_date)
+
     
     
     # Reset datetime index
