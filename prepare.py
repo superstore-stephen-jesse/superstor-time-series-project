@@ -30,6 +30,7 @@ def prepare_superstore_data():
     df.ship_date = pd.to_datetime(df.ship_date)
 
     # Reset datetime index
+    df.index = df.order_date.sort_values()
     
     # Fill nulls 
     
