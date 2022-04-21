@@ -87,7 +87,7 @@ __Delivery:__ A recorded presentation will be submitted with a clear recommendat
 
 Project GitHub Repository: https://github.com/superstore-stephen-jesse/superstore-time-series-project.git
 ##### Credits:
-Jesse Marder, Data Scientist
-https://github.com/jesse-d-marder
-Stephen Kipkurui, Data Scientist
-https://github.com/stephenkipkurui
+- Jesse Marder, Data Scientist
+    - https://github.com/jesse-d-marder
+- Stephen Kipkurui, Data Scientist
+    - https://github.com/stephenkipkurui
