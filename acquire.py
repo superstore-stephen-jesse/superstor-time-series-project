@@ -48,6 +48,9 @@ def get_superstore_data(use_cache = True):
     
     df.to_csv(superstore, index = False)
     
+    # Returns df
+    return df
+    
     
         
     
