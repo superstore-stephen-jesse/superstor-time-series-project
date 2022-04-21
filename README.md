@@ -16,7 +16,7 @@
 
 ### Project Description and Goals
 
-The goal of this project was to identify factors affecting errors in the Zestimate used by Zillow to estimate single family home prices in 2017. The results of this project will be used to improve the model used to estimate prices and guide future data collection efforts. If we know log errors are higher for certain home characteristics we can investigate the reasons for higher errors, develop a mitigation plan, and improve model predictions. I used statistical testing, clustering and regression methods to provide insight into what affects log error. 
+The goal of this project was to provide recommendations for the VP of Product at a large retail store regarding product strategy going forward. We specifically looked at different product categories and customer segments to identify where we make our greatest profit. 
 
 ### Initial Questions and Hypotheses
 
