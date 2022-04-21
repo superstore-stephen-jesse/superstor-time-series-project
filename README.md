@@ -80,10 +80,14 @@ __Delivery:__ A recorded presentation will be submitted with a clear recommendat
 ### Future work
 
 - Evaluate products sold by region and how they vary
-- Evaluate discount and ship date and how these factors 
+- Evaluate discount and ship date and how these factors affect profit 
 - Create model that can predict future frofits accurately 
 
 ### Appendix
 
 Project GitHub Repository: https://github.com/superstore-stephen-jesse/superstore-time-series-project.git
-
+##### Credits:
+Jesse Marder, Data Scientist
+https://github.com/jesse-d-marder
+Stephen Kipkurui, Data Scientist
+https://github.com/stephenkipkurui
