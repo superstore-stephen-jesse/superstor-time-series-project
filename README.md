@@ -33,6 +33,7 @@ The goal of this project was to provide recommendations for the VP of Product at
 | category    |  Product Category: Furniture, Office Supplies, or Technology       |
 | sub_category           |  17 different products within each of the 3 categories         |
 | segment    |  Customer Segment: Consumer, Corporate, or Home Office  |
+| discount    |  Discount applied to the sale |
 | alpha   | Significance level, set to 0.05. Used for confidence level of statistical tests  |
 
 
@@ -81,7 +82,7 @@ __Delivery:__ A recorded presentation will be submitted with a clear recommendat
 
 - Evaluate products sold by region and how they vary
 - Evaluate discount and ship date and how these factors affect profit 
-- Create model that can predict future frofits accurately 
+- Create model that can predict future profits accurately 
 
 ### Appendix
 
